@@ -1,0 +1,6 @@
+(defconstant PI 3.14)
+(defun area-circle(Radius)
+   (terpri)
+   (format t "Radius: ~5f" Radius)
+   (format t "~%Area: ~10f" (* PI Radius Radius)))
+(area-circle 10)
